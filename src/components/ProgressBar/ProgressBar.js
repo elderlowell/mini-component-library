@@ -34,6 +34,7 @@ const ProgressBar = ({ value, size }) => {
     border-radius: var(--borderRadius);
     background-color: ${COLORS.transparentGray15};
     overflow: hidden;
+    box-shadow: inset 0px 2px 4px ${COLORS.transparentGray35};
   `
   const ProgressBar = styled.div`
     background-color: ${COLORS.primary};
